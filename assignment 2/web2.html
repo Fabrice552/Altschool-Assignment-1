@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Media Showcase</title>
+</head>
+<body>
+    <header>
+        <h1>My Journey Through Multimedia</h1>
+    </header>
+    
+    <main>
+        <section>
+            <h2>My Evolution in Tech</h2>
+            
+            <!-- Responsive Picture Element -->
+            <picture>
+                <source media="(min-width: 1200px)" srcset="https://via.placeholder.com/800x400?text=Laptop+View">
+                <source media="(min-width: 768px)" srcset="https://via.placeholder.com/600x300?text=Tablet+View">
+                <source media="(min-width: 480px)" srcset="https://via.placeholder.com/400x200?text=Mobile+View">
+                <img src="https://via.placeholder.com/400x200?text=Default+Image" alt="My tech journey visualization">
+            </picture>
+            
+            <p>This responsive image represents my growth from beginner to professional developer.</p>
+        </section>
+        
+        <section>
+            <h2>My Development Philosophy</h2>
+            
+            <!-- Video Element -->
+            <video width="100%" controls>
+                <source src="dev-philosophy.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <p>Short video explaining my approach to problem-solving</p>
+        </section>
+        
+        <section>
+            <h2>My Coding Soundtrack</h2>
+            
+            <!-- Audio Element -->
+            <audio controls>
+                <source src="coding-theme.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <p>Music that fuels my development sessions</p>
+        </section>
+        
+        <section>
+            <h2>My Tech Inspiration</h2>
+            
+            <!-- Embedded Content -->
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Tech Inspiration"></iframe>
+            <p>Video that inspired my career path</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p><a href="index.html">Back to Profile</a></p>
+    </footer>
+</body>
+</html>
